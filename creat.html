@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MySyle.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-md">
+        <div class="title fs-1 fw-bold ">
+            <p>Create New Item</p>
+        </div>
+        <p class="text-start" style="font-size: 15px;">
+            <span class="text-danger">*</span> Reqired fields
+        </p>
+        <p class="text-start fs-5 fw-bold">Image, Video, Audio, or 3D Model
+            <span class="text-danger">*</span>
+        </p>
+        <p class="">File types supported: JPG, PNG, GIF, SVG,
+            MP4, WEBM, MP3, WAV, OGG, GLB, GLTF. Max size: 100 MB
+        </p>
+
+        <div class="flex-container">
+            <div class="upimage">
+            </div>
+        </div>
+
+        
+
+        <div class="container">
+            <div class="row">
+              <div class="col-7">
+                <form>
+
+                    <div class="mb-3">
+                        <p class="fw-bold fs-5" style="padding-top: 15px;">Name</p> 
+                      <input type="name" class="form-control" id="name" placeholder="Item name.." >      
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-bold fs-5" style="padding-top: 15px;">External link</p>
+                        <p class="fs-6">OpenSea will include a link to this URL on this item's detail page, so that 
+                            users can click to learn more about it. You are welcome to link to your own webpage with more details</p>
+                      <input type="name" class="form-control" id="name" placeholder="https://www.somthing.com" >      
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-bold fs-5" style="padding-top: 15px;">Name</p> 
+                      <textarea type="name" class="form-control" id="name" placeholder="Item name.." style="height: 100px;"></textarea>      
+                    </div>
+        
+              </div>
+              
+              <div class="col"></div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-auto">
+                    <img src="/Image/list.png" alt="" style="width: 3rem;">
+                </div>
+                <div class="col-md-auto">
+                    <p class="text-start fs-4 fw-bold">Propertiest</p>
+                    <p class="text-start">Textual traits that show up as rectangles</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col md-auto">
+                    <button type="button" class="btn btn-outline-primary"><span class="fs-4">+</span></button>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-auto">
+                    <img src="/Image/list.png" alt="" style="width: 3rem;">
+                </div>
+                <div class="col-md-auto">
+                    <p class="text-start fs-4 fw-bold">Propertiest</p>
+                    <p class="text-start">Include unlockable content that can only be revealed by the owner of the item.</p>
+                </div>
+                <div class="col-md-auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                <div class="col md-auto">
+                    <button type="button" class="btn btn-outline-primary"><span class="fs-4">+</span></button>
+                </div>
+            </div>
+
+        </div>
+
+
+       <!--end of from content-->
+      
+
+        
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
